@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2B700D0E9AD6F1EF3F05AD0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D2B7015BCC0BEE365502C3AD /* .gitignore */; };
+		D2B702B555290D29F52C8F06 /* MoveResizePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B70F9B9AC6BB7BD3C3C6BD /* MoveResizePlugin.m */; };
+		D2B703A41B391AC6F42C8FED /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2B705C9F4E3D9C5F96952EE /* LICENSE.txt */; };
+		D2B70BAE06F1C14365927834 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D2B70B162B79E9CFB118BFCF /* readme.md */; };
 		F9A5DDEA16862FDE0015E2BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A5DDE916862FDE0015E2BB /* Cocoa.framework */; };
 		F9A5DDF416862FDE0015E2BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9A5DDF216862FDE0015E2BB /* InfoPlist.strings */; };
+		F9D15850168637AE00B357CE /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D15833168637AE00B357CE /* JRSwizzle.m */; };
+		F9D1585B168637AE00B357CE /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F9D15848168637AE00B357CE /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2B7015BCC0BEE365502C3AD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		D2B70173196F8510D214CD82 /* MoveResizePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveResizePlugin.h; sourceTree = "<group>"; };
+		D2B705C9F4E3D9C5F96952EE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D2B70B162B79E9CFB118BFCF /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		D2B70F9B9AC6BB7BD3C3C6BD /* MoveResizePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveResizePlugin.m; sourceTree = "<group>"; };
 		F9A5DDE616862FDE0015E2BB /* mac-move-resize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-move-resize.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A5DDE916862FDE0015E2BB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F9A5DDEC16862FDE0015E2BB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -20,6 +31,9 @@
 		F9A5DDF116862FDE0015E2BB /* mac-move-resize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mac-move-resize-Info.plist"; sourceTree = "<group>"; };
 		F9A5DDF316862FDE0015E2BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9A5DDF516862FDE0015E2BB /* mac-move-resize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mac-move-resize-Prefix.pch"; sourceTree = "<group>"; };
+		F9D15832168637AE00B357CE /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		F9D15833168637AE00B357CE /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		F9D15848168637AE00B357CE /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,9 @@
 				F9A5DDEF16862FDE0015E2BB /* mac-move-resize */,
 				F9A5DDE816862FDE0015E2BB /* Frameworks */,
 				F9A5DDE716862FDE0015E2BB /* Products */,
+				D2B7015BCC0BEE365502C3AD /* .gitignore */,
+				D2B705C9F4E3D9C5F96952EE /* LICENSE.txt */,
+				D2B70B162B79E9CFB118BFCF /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +90,10 @@
 		F9A5DDEF16862FDE0015E2BB /* mac-move-resize */ = {
 			isa = PBXGroup;
 			children = (
+				F9D15831168637AE00B357CE /* JRSwizzle */,
 				F9A5DDF016862FDE0015E2BB /* Supporting Files */,
+				D2B70F9B9AC6BB7BD3C3C6BD /* MoveResizePlugin.m */,
+				D2B70173196F8510D214CD82 /* MoveResizePlugin.h */,
 			);
 			path = "mac-move-resize";
 			sourceTree = "<group>";
@@ -87,6 +107,16 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		F9D15831168637AE00B357CE /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				F9D15832168637AE00B357CE /* JRSwizzle.h */,
+				F9D15833168637AE00B357CE /* JRSwizzle.m */,
+				F9D15848168637AE00B357CE /* README.markdown */,
+			);
+			path = JRSwizzle;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -140,6 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A5DDF416862FDE0015E2BB /* InfoPlist.strings in Resources */,
+				F9D1585B168637AE00B357CE /* README.markdown in Resources */,
+				D2B700D0E9AD6F1EF3F05AD0 /* .gitignore in Resources */,
+				D2B703A41B391AC6F42C8FED /* LICENSE.txt in Resources */,
+				D2B70BAE06F1C14365927834 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B702B555290D29F52C8F06 /* MoveResizePlugin.m in Sources */,
+				F9D15850168637AE00B357CE /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +207,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -194,6 +230,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = "~/Library/Caches/appCode10/DerivedData/mac-move-resize-6e837301/Build/";
 			};
 			name = Debug;
 		};
@@ -201,10 +238,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
@@ -217,6 +254,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
+				SYMROOT = "~/Library/Caches/appCode10/DerivedData/mac-move-resize-6e837301/Build/";
 			};
 			name = Release;
 		};
@@ -265,6 +303,7 @@
 				F9A5DDFA16862FDE0015E2BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
