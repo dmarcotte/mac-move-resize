@@ -10,7 +10,7 @@ This enhancement is based on behavior found in many X11 window managers:
 ## Installation
 * To install:
     * Download and install [SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php)
-    * Download [Easy Move/Resize]() and place it in `~/Library/Application Support/SIMBL/Plugins`
+    * Download [Easy Move/Resize](https://sourceforge.net/projects/mac-move-resize/files/mac-move-resize.bundle/download) and place it in `~/Library/Application Support/SIMBL/Plugins`
     * Restart any applications
 * To uninstall:
     * Delete `~/Library/Application Support/SIMBL/Plugins/mac-move-resize.bundle`
