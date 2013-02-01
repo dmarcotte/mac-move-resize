@@ -49,7 +49,7 @@
     BOOL eventHandled = false;
 
     // do move and resize actions when command and control are held down
-    if (modifierKeys == NSAlternateKeyMask) {
+    if (modifierKeys == (NSCommandKeyMask | NSControlKeyMask)) {
 
         eventHandled = true;
         NSWindow* wnd = [event window];
