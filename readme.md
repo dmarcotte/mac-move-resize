@@ -1,3 +1,12 @@
+## DEPRECATED: Use [Easy Move+Resize](https://github.com/dmarcotte/easy-move-resize) instead
+**Why the change?** `Easy Move+Resize` is a rewrite which provides the following benefits:
+* Near-universal compatibility (any application which supports the Accessibility API is supported)
+* Removes the dependency on SIMBL
+* Released as an application which greatly improves installation/usability
+
+------------------------------------------------   Original readme follows   ------------------------------------------------
+
+
 # Easy Move/Resize for Mac
 
 Adds easy `modifier key + mouse click` move/resize capabilities to OSX
